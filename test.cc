@@ -13,6 +13,7 @@
 
 void readBipartiteGraph() {
   int x, y, e, i;
+  int a = 0;
   // Läs antal hörn och kanter
   scanf("%d%d%d", &x, &y, &e);
 
