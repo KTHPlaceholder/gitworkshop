@@ -24,7 +24,6 @@ void readBipartiteGraph() {
   }
 }
 
-
 void writeFlowGraph() {
   int v = 23, e = 0, s = 1, t = 2;
 
