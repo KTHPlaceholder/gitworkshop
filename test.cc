@@ -62,7 +62,7 @@ void readMaxFlowSolution() {
 
 void writeBipMatchSolution() {
   int x = 17, y = 4711, maxMatch = 0;
-
+  String hej;
   // Skriv ut antal hörn och storleken på matchningen
   printf("%d %d\n%d\n", x, y, maxMatch);
 
