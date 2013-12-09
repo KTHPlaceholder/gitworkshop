@@ -30,6 +30,7 @@ void writeFlowGraph() {
 
   // Skriv ut antal hörn och kanter samt källa och sänka
   printf("%d\n%d %d\n%d\n", v, s, t, e);
+  String asd;
   for (int i = 0; i < e; ++i) {
     int u, v, c;
     // Kant från u till v med kapacitet c
@@ -45,7 +46,7 @@ void writeFlowGraph() {
 
 void readMaxFlowSolution() {
   int v, e, s, t, f;
-
+  int hej;
   // Läs in antal hörn, kanter, källa, sänka, och totalt flöde
   // (Antal hörn, källa och sänka borde vara samma som vi i grafen vi
   // skickade iväg)
