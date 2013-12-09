@@ -11,18 +11,6 @@
 #include "bipred.h"
 #include "graph.h"
 
-void readBipartiteGraph() {
-  int x, y, e, i;
-  // Läs antal hörn och kanter
-  scanf("%d%d%d", &x, &y, &e);
-
-  // Läs in kanterna
-  for (int i = 0; i < e; ++i) {
-    int a, b;
-    scanf("%d %d", &a, &b);
-  }
-}
-
 
 void writeFlowGraph() {
   int v = 23, e = 0, s = 1, t = 2;
